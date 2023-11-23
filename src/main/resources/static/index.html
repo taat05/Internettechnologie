@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Player Management Ultimate Pro Edition</title>
+  <script type="text/javascript" src="./js/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+
+      <table class="table table-striped">
+        <tr>
+          <td>
+            Filter: <input type="text" class="form-control" id="inpSpielersuche" />
+            <button id="filter" class="btn btn-info">Filter anwenden</button>
+
+      <table class="table table-striped">
+
+        <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Sur Name</th>
+          <th scope="col">Position</th>
+          <th scope="col">Club</th>
+          <th scope="col">Operations</th>
+        </tr>
+        </thead>
+        <tbody id = "players">
+        </tbody>
+      </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-6">
+      <div class="form-group form-vales">
+        <input id="firstname" class="form-control" placeholder="First Name">
+        <input id="surname" class="form-control" placeholder="Sur Name">
+        <input id="position" class="form-control" placeholder="Position">
+        <input id="club" class="form-control" placeholder="Club">
+        <button id="save" type="button" class="btn btn-info">Save</button>
+        <button id="update" type="button" class="btn btn-success">Update</button>
+        <div class="alert" role="alert">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
